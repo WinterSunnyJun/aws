@@ -525,15 +525,15 @@ body{
 }
 /*视屏播报结束*/
 /*合作商风采*/
-.spbb{
+.hzs{
     background: #ffffff;
     overflow: hidden;
 }
-.spbb-title{
+.hzs-title{
     height: 50px;
     background: url("../img/title1.png")no-repeat;
 }
-.spbb-title h5{
+.hzs-title h5{
     float: left;
     font-size: 20px;
     line-height: 40px;
@@ -541,18 +541,98 @@ body{
     letter-spacing: 2px;
     font-weight: bold;
     text-indent: 16px;
+}
+.qyzp{
+    width: 528px;
+    margin-left: 60px;
+}
+.qyzp h5{
+    margin-top: 35px;
+    font-size: 20px;
+    color: #0069b5;
+    line-height: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+    border-left: 2px solid #0069b5;
+}
+.qyzp-list{
+    width: 100%;
+    margin-top: 22px;
+}
+.qyzp-list li{
+    float: left;
+    width: 230px;
+    height: 182px;
+    border: 8px solid #0082ce;
+    margin-right: 35px;
+    margin-bottom: 28px;
+    border-radius: 10px;
+}
+.qyzp-list li:nth-child(2n){
+    margin-right: 0;
+}
+.dmzp{
+    width: 528px;
+    margin-right: 60px;
+}
+.dmzp h5{
+    margin-top: 35px;
+    font-size: 20px;
+    color: #0069b5;
+    line-height: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+    border-left: 2px solid #0069b5;
+}
+.dmzp-list{
+    width: 100%;
+    margin-top: 22px;
+}
+.dmzp-list li{
+    float: left;
+    width: 230px;
+    height: 182px;
+    border: 8px solid #0082ce;
+    margin-right: 35px;
+    margin-bottom: 28px;
+    border-radius: 10px;
+}
+.dmzp-list li:nth-child(2n){
+    margin-right: 0;
+}
+.hzs-line{
+    width: 2px;
+    height: 425px;
+    background: #0082ce;
+    margin-top: 77px;
+    margin-left: 35px;
+}
+.ck-more{
+    margin: 0 auto;
+    width: 242px;
+    height: 76px;
+    background: #0082ce;
+    text-align: center;
+    line-height: 76px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+.ck-more a{
+    color: #ffffff;
+    font-size: 20px;
 }
 /*合作商风采结束*/
 /*产品展示*/
-.spbb{
-    background: #ffffff;
+.cp{
+    position: relative;
+    background: #cccccc;
     overflow: hidden;
 }
-.spbb-title{
+.cp-title{
     height: 50px;
     background: url("../img/title1.png")no-repeat;
 }
-.spbb-title h5{
+.cp-title h5{
     float: left;
     font-size: 20px;
     line-height: 40px;
@@ -560,5 +640,42 @@ body{
     letter-spacing: 2px;
     font-weight: bold;
     text-indent: 16px;
+}
+.cp-list{
+    width: 1150px;
+    height: 222px;
+    margin: 25px auto;
+}
+.cp-list li{
+    float: left;
+    margin-right: 8px;
+    width: 222px;
+    height: 100%;
+}
+.cp-left,
+.cp-right{
+    position: absolute;
+    font-size:60px;
+    color: #999999;
+    top: 35%;
+}
+.cp-left{
+    left: 8px;
+}
+.cp-right{
+    right: 10px;
+}
+.hzs-more{
+    width: 130px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    margin: 0 auto;
+    background: #0096db;
+    border-radius: 10px;
+    margin-bottom: 22px;
+}
+.hzs-more a{
+    color: #ffffff;
 }
 /*产品展示结束*/
